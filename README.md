@@ -1,70 +1,46 @@
 # 🚦 Network Traffic Classification
 
-A Machine Learning based system for classifying network traffic using Deep Learning techniques.
+<p align="center">
+  <img src="images/banner.png" width="100%">
+</p>
 
----
+# 📌 Introduction
 
-## 📌 Project Overview
+This project is based on Network Traffic Classification using Machine Learning.
 
-This project analyzes and classifies network traffic data to identify different traffic categories using ML models.
-
----
-
-## 🧠 Model Architecture
-
-| Component | Details |
-|---|---|
-| Model Type | CNN / ANN |
-| Framework | TensorFlow / PyTorch |
-| Dataset | CICIDS2018 |
-| Classes | Multiple Traffic Classes |
-
----
-
-## 📊 Results
-
-| Metric | Value |
-|---|---|
-| Training Accuracy | 95% |
-| Validation Accuracy | 92% |
-| Test Accuracy | 91% |
-
----
-
-## 📈 Features
-
-- Data preprocessing
-- Traffic classification
-- Model evaluation
-- Visualization graphs
-
----
-
-## 📂 Project Structure
+# 📂 Project Structure
 
 ```bash
-README.md
-network_traffic_classification.ipynb
+dataset/
+images/
+notebooks/
+models/
 ```
 
----
+# 📊 Dataset Preview
 
-## ⚙️ Installation
+<p align="center">
+  <img src="images/dataset.png" width="700">
+</p>
 
-```bash
-pip install pandas numpy matplotlib scikit-learn tensorflow
-```
+# 📈 Visualization
 
----
+<p align="center">
+  <img src="images/graph1.png" width="700">
+</p>
 
-## ▶️ Run Project
+# 🎯 Accuracy
 
-```bash
-jupyter notebook
-```
+<p align="center">
+  <img src="images/accuracy.png" width="700">
+</p>
 
----
+# 🔍 Confusion Matrix
 
-## 👨‍💻 Author
+<p align="center">
+  <img src="images/matrix.png" width="700">
+</p>
+
+# 👨‍💻 Author
 
 Roshan Ali
